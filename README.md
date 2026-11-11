@@ -15,7 +15,12 @@ Two things, one click each:
 **方式二：把仓库链接复制给 Harness**
 在对话框里直接说：
 
-> 帮我安装 https://github.com/<you>/ai-new-skin
+> 帮我安装 https://github.com/WPH666-py/ai-new-skin
+
+仓库地址：
+
+- GitHub：<https://github.com/WPH666-py/ai-new-skin>
+- Gitee：<https://gitee.com/ph-wang_admin/ai-new-skin>
 
 或者用插件管理器安装：
 

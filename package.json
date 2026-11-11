@@ -1,0 +1,53 @@
+{
+  "name": "ai-new-skin",
+  "version": "0.1.0",
+  "description": "AI 娘壁纸皮肤：把 65 张 AI 娘壁纸装进 Harness——一键设为编辑器背景，或设为 Windows 桌面壁纸。",
+  "type": "module",
+  "main": "index.js",
+  "icon": "icon.jpg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/",
+    "icon.jpg",
+    "pic/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "wallpaper",
+    "skin",
+    "theme",
+    "background",
+    "anime",
+    "ai-girl",
+    "壁纸"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "license": "MIT"
+}
